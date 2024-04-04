@@ -45,3 +45,53 @@ TypeScript : 타입기능 업그레이드된 js
 serverless : 서버역할 대신 해주는 서비스
 
 
+
+
+
+# Markdown 기본 문법
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+
+p태그
+
+- 1번
+- 2번
+- 3번
+
+```javascript
+console.log("Hello, World!");
+```
+
+
+# JavaScrit 공부
+## Javascrit 실행/출력
+c언어의 printf같은 존재가 여기에선 console.olg(출력"); 이다.
+```javascript
+console.log("Hello, World!");
+```
+
+### 웹사이트 콘솔에 출력
+- 참고로 웹사이트 콘솔은 open with live sever로 열어서 f12누르고 거기에서 콘솔 들어가면 됨.
+- body 사이에 넣으면 안됨
+
+1.아래의 코드처럼 그냥 html에 쳐서 웹사이트 콘솔창에 출력하는 방법이 있다.
+```html
+ <script>
+    console.log("Hello World!"); 
+ </script>
+```
+
+2.아래의 코드 처럼 html에서 javascrit에 써져있는 애를 불러와서 웹사이트 콘솔창에 출력하는 방법이 있다.
+
+```html
+ <script src = "/js/app.js"></script>
+```
+
+## node.js 실행방법
+1. 인터넷에 node를 검색해서 깔아준다.
+2. vscode 터미널창에 cd js를 친다
+3. vscode 터미널창에 node app.js를 친다.
+4. 끝.
