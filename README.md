@@ -1,11 +1,11 @@
 # SPAM-Web-Basic
 
-프론트 엔드
+## 프론트 엔드
 - html : 웹사이트의 뼈대를 만드는 역할 -> 기본 구조 역할
 - css : 웹사이트를 꾸며주는 역할 -> 디자인 역할
 - js(JavaScript) : 기능을 넣는 역할
 
-라이브러리 : 함수들의 모임(가져다 쓰면 코딩이 편해진다)
+#### 라이브러리 : 함수들의 모임(가져다 쓰면 코딩이 편해진다)
 *사용하면 편하다보니 외부 라이브러리를 많이 사용한다.(특히 js라이브러리)
 
 <그래서 나타난 애들>
@@ -95,3 +95,54 @@ console.log("Hello, World!");
 2. vscode 터미널창에 cd js를 친다
 3. vscode 터미널창에 node app.js를 친다.
 4. 끝.
+
+# js 기초 문법
+## 변수
+
+변수: 내가 아는 그 변수ㅎ
+
+변수작성 규칙: 내가 아는 그 변수 규칙에 무언가 추가됨ㅁ
+
+#### 호이스팅: 밑에서 선언한 번수를 위에서도 쓴다.
+
+#### 변수선언 방식
+var: 재선언 가능, 재할당 가능
+
+let: 재선언 불가, 재할당 가능, 블록변위 변수, 호이스팅 불가
+
+const : 재선언 불가능, 재할당 불가능, 상수
+```javascript
+let haha = "나는 기분이 좋아요!"
+console.log(haha);
+//요런식으로 쓴다ㅏ
+//c언어와 같이 슬래시슬래시가 주석임
+```
+## 자료형
+#### 원시형 데이터
+- 숫자: 정수 및 부동 소수점
+- 문자열: 텍스트
+- 불리언: 참 and 거짓
+- null: 값이 존재하지 않음
+-  undefined: 변수가 초기화되지 않았거나 값이 할당되지 않았음
+- 심벌: 고유하고 변경 불가능한 데이터 유형
+
+#### 참조형데이터
+- 객체: 복합 데이터 유형으로, 여러 속성과 메서드를 포함
+
+요로코롬 사용
+```javascript
+let name = "장승원"
+let age = 17
+let height = 168
+let gf = undefined
+let bf = false
+let baby = null
+
+console.log(name)
+console.log(age)
+console.log(height)
+console.log(gf)
+console.log(bf)
+console.log(baby)
+```
+
