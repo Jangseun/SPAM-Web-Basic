@@ -145,4 +145,46 @@ console.log(gf)
 console.log(bf)
 console.log(baby)
 ```
+# 연산자 
+연산자는 c랑 똑같다.
+다른 것이 있다면.
+```javascript
+console.log(3.14 == "3.14");//True
+console.log(3.14 === "3.14");//False
+```
+이런건데... 애는 ==로 하면 여기에는 문자형이 없으니 걍 다 True라 인식하는 모양이다.
+=== 이라는 새로운 친구가 있는데 애는 문자형을 구분해 주어 False가 나온다ㅏ.
 
+# if
+이 아이도 c와 같다.
+음 걍 구조만 적어 놓겠다ㅏ.
+```javascript
+if(조건식){
+    console.log("출력ㄱㄱ");
+}
+else if(조건식){
+    console.log("출려ㄱ");
+}
+else{
+    console.log("ㅊㄹ");
+}
+```
+
+# switch case문
+애도 c랑 같음 구조만 적겠음...
+```javascript
+switch (변수 값){
+    case 1: //여기에는 조건 넣을 수 없는거^^
+        console.log("출력문ㄴ");
+        break;  //break 넣는거 까먹지 말기
+    case 2:
+        console.log("출력ㄱ");
+        break;
+    case 3:
+        console.log("출려ㄱ");
+        break;
+    default:
+        console.log("ㅊㄹ");
+        break;
+}
+```
