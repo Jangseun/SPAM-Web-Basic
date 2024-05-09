@@ -1,3 +1,11 @@
 #hahaha{
     background-color: blue;
+    color: #fac814;
+    width: 600px;
+    height: 500px;
+    border: solid 1px #fa148b;
+    display: block;
+    font-size: 100px;
+    font-weight: 1000;
+    opacity: 0.1;
 }
