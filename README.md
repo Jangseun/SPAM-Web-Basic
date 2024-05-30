@@ -237,3 +237,118 @@ for(변수 초기화ㅏ; 조건식; 증감식){
 
 ### continue;
 근디 애는 빠져나간 후 다시 위로 돌아감ㅁ
+
+# 인공지능이란?
+Aritificial Intelligence
+인공 지능
+
+## 인공지능 역사
+1950년 - 튜링 테스트
+
+1960년 - 논리적 문제해결
+
+1970년 - AI의 겨울
+
+1990년대 이후 - 컴퓨터 성능의 향상과 대규모 데이터 축적
+
+## 종류
+좁은AI(Narrow AI) : 지금 현실에 존재하는 한가지 기능만을 하는
+
+일반AI(General AI): 이론개념(현실존재X) 인간처럼 생각하는 애
+
+강한AI(Strong AI): 이론개념(현실존재X)
+
+## 특이점
+AI가 인간의 지능을 뛰어넘는 것
+(인간이 이세상에서 필요가 없어질때 인간이 도구)
+General AI와 Strong AI가 나오는 시점일 것이다.
+
+# Nachine Searning(ML)이란?
+- 단순한 것을 학습시키는 것
+# Deep Learning(딥러닝)이란?
+- 지금 우리가 생각하는 AI 학습과정
+- 자연어 처리
+- 이미지, 영상 학습
+- 자율주행
+
+# LLM(Large Language Model)
+- Narrow AI를 묶고 묶고 묶어서 만든 것
+
+## 멀티모달
+- 텍스트, 이미지, 소리...등을 고도로 학습한 AI
+
+## 제미나이
+- GPT 구글(웹) 버전
+
+# 배열
+순서있는 데이터 묶음
+```javascript
+const array = [1,2,3,4,5,6,7,8,9];
+```
+
+## 배열관련 다루기
+```javascript
+console.log(students);
+console.log(students[1]); //인덱스[첨자] 불러오기
+
+students[1] = "John";
+console.log(students[1]); //원하는 값 바꾸기 
+
+console.log(students.length); //배열길이
+console.log(students.push("현서")); //뒤에 추가
+
+console.log(students.pop());//뒤에 삭제
+
+console.log(students.shift()); //앞에 삭제
+console.log(students.unshift("준석")); // 앞에 추가
+```
+
+# 오브젝트
+변수들의 집합이라 생각하면 쉬움.
+키값으로 묶은 것,
+아마 python에 딕셔너리와 비슷한 듯?
+```javascript
+const me = {
+    name: "정현서",
+    age: 19,
+    score: [60, 50],
+    cat: false
+};
+```
+
+### 배열안 오브젝트
+이렇게도 사용할 수 있다.
+```javascript
+const students = [
+    { name: "준석", age: 17 },
+    { name: "준영", age: 17 },
+    { name: "승원", age: 17 },
+    { name: "윤솔", age: 17 },
+    { name: "예건", age: 17 }
+];
+```
+
+# 함수
+다른 인자를 사용하여 동일한 코드를 여러번 사용할 수 있으며,
+다른 결과를 도출 할 수 있다.
+```javascript
+function div(a,b) {
+return a/b;
+}
+
+console.log(div(3,3)); // 1출력
+console.log(div(4,2)); // 2출력
+```
+
+# 전역변수, 지역변수
+밑에있는 코드 참고
+```javascript
+let a = 20; // 전역변수
+
+function varDas() {
+    let a = 10; // 지역변수
+}
+
+console.log(a); //20출력
+```
+
