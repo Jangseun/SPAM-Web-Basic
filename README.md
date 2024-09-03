@@ -352,3 +352,67 @@ function varDas() {
 console.log(a); //20출력
 ```
 
+# 백앤드 개발이란?
+
+## 백엔드의 구분
+### - API (Application Programming Interface)
+  - 한 프로그램에서 다른 프로그램으로 주고 받기 위한 방법
+
+    #### API가 가져야할 내용
+    - method: 데이터를 달라고 할 것이냐 보낼 것이냐 같은 요청방식
+    - endpint: 어떤 데이터 요청 할 것이냐
+    - parameter 자료요청에 필요한 추가정보
+
+    ### rest란? 
+      : REST(REprentational State Transfer)의 약자로 자원을 이름으로 구분하여 해당 자원의 상태를 주고받는 모든 것
+
+    #### Rest API
+    - HTTP URL를 통해 Resource를 명시하고, HTTP Method를 통해 해당 URL에 대한 CRUD를 적용하는 것이다.
+
+    #### rest api 원칙
+    1) 동사를 사용하지 않고 소문자를 사용하여야 한다.
+    2) '_'대신'-'을 사용
+    3) url 마지막에'/' 포함 하지 않는다.
+    4) 파일 확장자 사용하지 않는다.
+
+    #### - CRUD
+    - C(create)
+    - R(reead)
+    - U(update)
+    - D(delete)
+
+    #### - http 메소드
+    - get - 데이터 조회
+    - post - 데이터 생성
+    - put - 데이터 부분수정
+    - patch - 데이터 전체수정
+    - delet - 데이터 삭제
+
+### - Database
+- RDB(관계형DB)
+    
+    ex) myspl
+
+- NoSQL DB
+    SQL 사용하지 않는 DB
+    ex) redis, mongoDB
+
+
+#### 서버 구조
+
+Controller - 직접적으로 메소드를 정해서 Url로 통신하는 곳
+
+Service - 통신하며 사용할 로직을 적는 곳
+
+Repository - 데이터베이스를 연결하고, 데이터를 저장하는 곳
+
+Entity - 데이터의 구조를 잡아 구조체를 저장하는 곳
+
+
+### -infrastructure
+ -> devops 개발자
+
+소프트웨어 및 하드워어  시스테의 기본구조 및 기반을 설계, 구축, 보조하는...
+
+#### ci/cd
+지속적 통합 밒 지속적 제공 배포를 의미 소프트웨어 개발 라이프사이클을 가속화 하는 것.
